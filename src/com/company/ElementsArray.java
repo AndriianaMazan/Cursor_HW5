@@ -4,7 +4,7 @@ public class ElementsArray<T extends Comparable<T>> {
     private T[] array;
 
     public ElementsArray(T[] array) {
-        this.array = array.clone();
+        this.array = array;
     }
 
     public void print() {
