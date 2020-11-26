@@ -63,8 +63,8 @@ public class Main {
         System.out.println("Array #3.1");
         stringArray.print();
         if(stringArray.getHighest() != null) {
-            String maxStringArray = stringListComparable.getLargest();
-            String minStringArray = stringListComparable.getSmallest();
+            String maxStringArray = stringArray.getHighest();
+            String minStringArray = stringArray.getLowest();
             System.out.println("\nThe largest number of Comparable String Array: " + maxStringArray);
             System.out.println("The getSmallest number of Comparable String Array: " + minStringArray);
         }
@@ -74,8 +74,8 @@ public class Main {
         System.out.println("Array #3.2");
         intArray.print();
         if(intArray.getHighest() != null) {
-            String maxIntegerArray = stringListComparable.getLargest();
-            String minIntegerArray = stringListComparable.getSmallest();
+            String maxIntegerArray = intArray.getHighest();
+            String minIntegerArray = intArray.getLowest();
             System.out.println("\nThe largest number of Comparable Integer Array: " + maxIntegerArray);
             System.out.println("The getSmallest number of Comparable Integer Array: " + minIntegerArray);
         }
